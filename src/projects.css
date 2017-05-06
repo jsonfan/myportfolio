@@ -1,0 +1,108 @@
+.projects {
+  /*border: 2px solid yellow;*/
+}
+
+.mode-select {
+  box-sizing: border-box;
+  /*border: 3px solid green;*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  height: 100px;
+  background-color: #00bcd4;
+}
+
+.mode {
+  box-sizing: border-box;
+  height: 50px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  border-radius: 10%;
+  padding: 0;
+  -webkit-box-shadow: 0 0 .5em rgba(0,0,0,1),
+      inset 0 .25em .3em rgba(255,255,255,.3),
+      inset 0 -.25em .3em rgba(0,0,0,.5);
+
+  -moz-box-shadow: 0 0 .5em rgba(0,0,0,1),
+      inset 0 .25em .3em rgba(255,255,255,.3),
+      inset 0 -.25em .3em rgba(0,0,0,.5);
+
+  box-shadow: 0 0 .5em rgba(0,0,0,1),
+      inset 0 .25em .3em rgba(255,255,255,.3),
+      inset 0 -.25em .3em rgba(0,0,0,.5);
+  font: inherit;
+  cursor: pointer;
+  background-color: #f7f7f7;
+}
+
+.mode:active {
+  -webkit-box-shadow: 0 0 .5em rgba(0,0,0,1),
+      inset 0 .1em .3em rgba(0,0,0,.5),
+      inset 0 -.1em .3em rgba(0,0,0,.5);
+  -moz-box-shadow: 0 0 .5em rgba(0,0,0,1),
+      inset 0 .1em .3em rgba(0,0,0,.5),
+      inset 0 -.1em .3em rgba(0,0,0,.5);
+  box-shadow: 0 0 .5em rgba(0,0,0,1),
+      inset 0 .1em .3em rgba(0,0,0,.5),
+      inset 0 -.1em .3em rgba(0,0,0,.5);
+}
+
+.mode-name {
+  display: none;
+  width: 100%;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.projects-list {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.project {
+  box-sizing: border-box;
+  margin: 5px;
+  padding-top: 2px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: small;
+  width: 200px;
+  text-align: center;
+  padding-bottom: 9px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.project, .project-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  -webkit-transition: all 1.2s ease; /* Safari and Chrome */
+  -moz-transition: all 1.2s ease; /* Firefox */
+  -o-transition: all 1.2s ease; /* IE 9 */
+  -ms-transition: all 1.2s ease; /* Opera */
+  transition: all 1.2s ease;
+}
+
+.project:hover {
+  -webkit-transform:scale(2); /* Safari and Chrome */
+  -moz-transform:scale(2); /* Firefox */
+  -ms-transform:scale(2); /* IE 9 */
+  -o-transform:scale(2); /* Opera */
+   transform:scale(2);
+   background-color: #f7f7f7;
+}
+
+.no-selection {
+  box-sizing: border-box;
+  margin: 25px;
+  vertical-align: center;
+  font-family: 'Press Start 2P', cursive;
+  height: 400px;
+  width: 100%;
+}

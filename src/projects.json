@@ -1,0 +1,168 @@
+{
+  "webDev": {
+    "fieldName": "Web Dev",
+    "projects": [
+      {
+        "projectName": "Sole Good",
+        "shortSummary": "eCommerce Website powered by LAMP stack",
+        "tech": [
+          "PHP",
+          "MySQL",
+          "CodeIgniter",
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Bootstrap",
+          "Stripe API",
+          "Google Maps API",
+          "AJAX",
+          "Heroku"
+        ],
+        "img" : "SoleGoodFront.png",
+        "link" : "https://github.com/jsonfan/SoleGood"
+      },
+      {
+        "projectName": "Soul Food",
+        "shortSummary": "Social Dining App powered by MEAN stack",
+        "tech": [
+          "HTML",
+          "CSS",
+          "Bootstrap",
+          "Materialize",
+          "JavaScript",
+          "Node.js",
+          "ExpressJS",
+          "AngularJS",
+          "MongoDB",
+          "AWS",
+          "Socket.IO",
+          "PassportJS",
+          "Google Login",
+          "Facebook Login",
+          "Yelp API",
+          "Google Maps API"
+        ],
+        "img" : "SoulFoodFront.png",
+        "link" : "https://github.com/jsonfan/SoulFood"
+      },
+      {
+        "projectName": "Chit Chat",
+        "shortSummary": "An online chatroom built with Socket.IO",
+        "tech": [
+          "HTML",
+          "CSS",
+          "Materialize",
+          "JavaScript",
+          "Node.js",
+          "ExpressJS",
+          "MongoDB",
+          "Socket.IO"
+        ],
+        "img" : "ChitChatFront.png",
+        "link" : "https://secure-harbor-53801.herokuapp.com/"
+      },
+      {
+        "projectName": "Open Forum",
+        "shortSummary": "An end-to-end single-page MEAN application built in under 4.5 hours.",
+        "tech": [
+          "HTML",
+          "CSS",
+          "Materialize",
+          "JavaScript",
+          "AngularJS",
+          "Node.js",
+          "ExpressJS",
+          "MongoDB",
+          "AWS"
+        ],
+        "img" : "QAndAFront.png",
+        "link" : "https://openforum.herokuapp.com/"
+      }
+    ]
+  },
+  "mobile": {
+    "fieldName": "Mobile",
+    "projects": [
+      {
+        "projectName": "Podcastic",
+        "shortSummary": "WIP Podcast consumption iOS app",
+        "tech": [
+          "Xcode",
+          "Swift",
+          "iOS",
+          "Alamofire",
+          "iTunes Search API"
+        ],
+        "img" : "PodcasticFront_iphone6plus_silver_portrait.png",
+        "link" : "https://github.com/jsonfan/Podcastic_iOS"
+      },
+      {
+        "projectName": "Cinephile",
+        "shortSummary": "WIP Movie data consumption iOS app",
+        "tech": [
+          "Xcode",
+          "Swift",
+          "iOS",
+          "Alamofire",
+          "OMDB"
+        ],
+        "img" : "wipmovieappfront.png",
+        "link" : "https://github.com/jsonfan/SomeMovieApp"
+      },
+      {
+        "projectName": "HearthPacks",
+        "shortSummary": "Unity3d Game",
+        "tech": [
+          "Unity3D",
+          "C#",
+          "JSON",
+          "Google Play"
+        ],
+        "img" : "hearthpacks-hand.png",
+        "link" : "https://play.google.com/store/apps/details?id=me.jsonf.hearthpacks"
+      },
+      {
+        "projectName": "Trade Genius",
+        "shortSummary": "Trade Genius is a trade simulator for NBA teams",
+        "tech": [
+          "Java",
+          "Android Studio",
+          "SQLite"
+        ],
+        "img" : "tradegenius-result.png",
+        "link" : false
+      }
+    ]
+  },
+  "embeddedSys": {
+    "filedName": "Embedded Systems",
+    "projects": [
+      {
+        "projectName": "Cars Land Precision Model Series",
+        "shortSummary": "A miniature replica display of Radiator Springs from Disney's Cars.",
+        "tech": [
+        ],
+        "video": true,
+        "yt" : "https://www.youtube.com/watch?v=zh9v8N1mHLs",
+        "img" : "CarsLand.jpeg",
+        "link" : "https://www.youtube.com/watch?v=zh9v8N1mHLs"
+      },
+      {
+        "projectName": "Share the Force Exhibit",
+        "shortSummary": "A Target and Star Wars exhibit at D23 2015.",
+        "tech": [
+        ],
+        "img" : "sharetheforce.jpg",
+        "link" : false
+      },
+      {
+        "projectName": "Autonomous Robot",
+        "shortSummary": "Built to compete in a Robot Olympics competition amongst classmates and finished tied for first place.",
+        "tech": [
+        ],
+        "img" : "toolboxbot-preview.jpg",
+        "link" : false
+      }
+    ]
+  }
+}

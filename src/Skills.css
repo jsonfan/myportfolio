@@ -1,0 +1,58 @@
+.skills {
+  display: flex;
+  justify-content: center;
+}
+
+.skillgroup {
+  font-family: 'Press Start 2P', cursive;
+  box-sizing: border-box;
+  margin: 5px;
+  padding-top: 30px;
+  padding-bottom: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  color: white;
+  border-radius: 10px 10%;
+}
+.skillgroup:nth-child(even) {
+  background-color: #07338C;
+}
+
+.skillgroup:nth-child(odd){
+  background-color: #307CBF;
+}
+
+.skillgroup:last-child {
+  background-color: #0FBFAE;
+}
+
+.skill {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 2px;
+  border: 2px solid #EF6C00;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px 5%;
+}
+
+.skill-name {
+  display:none;
+  font-size: 7px;
+}
+
+.skill-svg {
+  fill: red;
+}
+
+.skill-label {
+  font-size: x-small;
+  text-align: left;
+  padding-left: 12px;
+  padding-bottom: 4px;
+  flex: 0 0 100%;
+}

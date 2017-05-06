@@ -1,0 +1,24 @@
+@media(min-width: 900px) {
+  .mode-select {
+    height: 120px;
+  }
+
+  .mode {
+    height: 90px;
+    width: 150px;
+  }
+
+  .mode-name {
+    display: block;
+  }
+
+  .mode > img {
+    width: 65%;
+    height: 65%;
+  }
+
+  .project {
+    width: 30%;
+    height: 30%;
+  }
+}

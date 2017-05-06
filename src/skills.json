@@ -1,0 +1,33 @@
+[
+  {
+    "skillType": "Backend",
+    "skills" : [
+      "PHP",
+      "MySQL",
+      "NodeJS",
+      "MongoDB",
+      "AWS"
+    ]
+  },
+  {
+    "skillType": "Frontend",
+    "skills" : [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "npm",
+      "Responsive Design"
+    ]
+  },
+  {
+    "skillType": "Frameworks",
+    "skills" : [
+      "React",
+      "Angular",
+      "CodeIgniter",
+      "Bootstrap",
+      "MaterializeCSS"
+    ]
+  }
+]
