@@ -3,6 +3,26 @@
     "fieldName": "Web Dev",
     "projects": [
       {
+        "projectName": "Mouse Parks",
+        "shortSummary": "Web app to fetch Disney Park wait times and ride info",
+        "tech": [
+          "PHP",
+          "Lumen",
+          "Laravel",
+          "Docker",
+          "nginx",
+          "HTML",
+          "CSS",
+          "React",
+          "JavaScript",
+          "MySQL",
+          "Redis",
+          "PHPUnit"
+        ],
+        "img" : "mouseparksweb.png",
+        "link" : "https://github.com/jsonfan/mouseparksweb"
+      },
+      {
         "projectName": "Sole Good",
         "shortSummary": "eCommerce Website powered by LAMP stack",
         "tech": [

@@ -1,6 +1,7 @@
 .skills {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .skillgroup {
@@ -15,23 +16,28 @@
   flex-wrap: wrap;
   color: white;
   border-radius: 10px 10%;
+  width: 40%;
 }
-.skillgroup:nth-child(even) {
+.skillgroup:nth-child(1) {
   background-color: #07338C;
 }
 
-.skillgroup:nth-child(odd){
+.skillgroup:nth-child(2){
   background-color: #307CBF;
 }
 
+.skillgroup:nth-child(3){
+  background-color: #3d5afe;
+}
 .skillgroup:last-child {
-  background-color: #0FBFAE;
+  background-color: #00bfa5;
 }
 
 .skill {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
   flex-wrap: wrap;
   margin: 2px;
   border: 2px solid #EF6C00;
@@ -46,7 +52,7 @@
 }
 
 .skill-svg {
-  fill: red;
+  width: 100%;
 }
 
 .skill-label {

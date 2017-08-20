@@ -6,7 +6,10 @@
       "MySQL",
       "NodeJS",
       "MongoDB",
-      "AWS"
+      "Redis",
+      "Go",
+      "Ruby",
+      "PostgreSQL"
     ]
   },
   {
@@ -16,8 +19,8 @@
       "CSS3",
       "JavaScript",
       "jQuery",
-      "npm",
-      "Responsive Design"
+      "SASS",
+      "Swift"
     ]
   },
   {
@@ -27,7 +30,21 @@
       "Angular",
       "CodeIgniter",
       "Bootstrap",
-      "MaterializeCSS"
+      "MaterializeCSS",
+      "Laravel",
+      "Rails",
+      "Express"
+    ]
+  },
+  {
+    "skillType": "DevOps",
+    "skills" : [
+      "Docker",
+      "AWS",
+      "Jenkins",
+      "Apache",
+      "nginx",
+      "Linux"
     ]
   }
 ]

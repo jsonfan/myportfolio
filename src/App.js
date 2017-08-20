@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import ReactGA from 'react-ga';
 import Skills from './Skills';
 import Projects from './Projects';
 import Footer from './Footer';
@@ -10,6 +10,13 @@ import './App-mq900.css';
 import './App-mq1024.css';
 
 class App extends Component {
+  constructor() {
+    super();
+    
+    ReactGA.initialize('UA-103062976-1');
+    ReactGA.pageview(window.location.pathname);
+  }
+
   render() {
     return (
       <div className="App">

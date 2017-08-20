@@ -18,9 +18,11 @@ body {
   justify-content: center;
   background-image: url(../public/img/bg.gif);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
-  height: 30vh;
+  height: 40vh;
+  padding-top: 20px;
   color: white;
 }
 

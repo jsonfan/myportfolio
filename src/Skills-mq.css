@@ -1,17 +1,22 @@
 @media (min-width: 900px) {
-  .skill-group {
-    flex-direction: column;
-  }
 
   .skill {
-    width: 75px;
-    height: 75px;
+    width: 90px;
+    height: 90px;
   }
 
   .skill-name {
-    display :block;
-    font-size: 7px;
-    word-wrap: break-word;
+    display :flex;
+    font-size: 10px;
+    word-break:break-all
+  }
+
+  .skill-svg {
+    width: 60%;
+  }
+
+  .skillgroup {
+    width: 25%;
   }
 
 }
